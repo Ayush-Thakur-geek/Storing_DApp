@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Storing Number Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+This project demonstrates a basic D-App development using tools like hardhat.
+This project provides three operations that are storing number, retrieving number and total number stored.
+Use hardhat documentation for detailed info on usage of hardhat: https://hardhat.org/docs
