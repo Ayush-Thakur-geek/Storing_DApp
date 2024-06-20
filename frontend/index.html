@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="content">
+        <div id="connect">
+          <button id="connectButton"><h3>Connect your wallet</h3></button>
+        </div>
+        <div id="write">
+          <div class="container" id="store">
+            <input type="text" />
+            <button class="btn" id="storeButton">Store</button>
+          </div>
+          <div class="container" id="retrieve">
+            <input type="text" />
+            <button class="btn" id="retrieveButton">Retrieve</button>
+          </div>
+          <div class="container">
+            <button class="btn" id="len">length</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js"
+      type="application/javascript"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
